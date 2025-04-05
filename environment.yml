@@ -1,0 +1,32 @@
+name: gaelic-football-analyser
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=23.0
+  - pytorch=2.0.0
+  - torchvision
+  - cudatoolkit=11.7
+  - ffmpeg=5.1.2
+  - opencv=4.7.0
+  - numpy=1.24.3
+  - pandas=2.0.0
+  - matplotlib=3.7.1
+  - plotly=5.14.0
+  - streamlit=1.22.0
+  - gradio=3.27.0
+  - pip:
+    - transformers==4.30.2
+    - datasets==2.12.0
+    - peft==0.4.0 # For LoRA fine-tuning
+    - bitsandbytes==0.39.0 # For QLoRA fine-tuning
+    - accelerate==0.19.0 # For optimized training
+    - diffusers==0.16.1 # For potential visual model outputs
+    - av==10.0.0 # For advanced video processing
+    - tqdm==4.65.0
+    - sentencepiece==0.1.99 # For tokenization
+    - protobuf==3.20.0 # Compatibility with TensorFlow
+    - scikit-learn==1.2.2 # For metrics and evaluation
+    - wandb==0.15.3 # For experiment tracking (optional)

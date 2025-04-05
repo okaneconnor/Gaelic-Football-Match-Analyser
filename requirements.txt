@@ -1,0 +1,20 @@
+opencv-python==4.5.5.64
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+tensorflow>=2.8.0  # For deep learning models
+PyYAML>=6.0  # For configuration handling
+tqdm>=4.62.0  # For progress bars
+pytest>=7.0.0  # For testing
+seaborn>=0.11.0  # For enhanced visualizations
+plotly>=5.5.0  # For interactive visualizations
+scipy>=1.7.0  # For scientific computing
+pillow>=9.0.0  # For image processing
+torch>=1.10.0  # PyTorch for deep learning
+streamlit>=1.10.0  # For UI
+psutil>=5.9.0  # For system monitoring
+transformers>=4.20.0  # For Hugging Face transformers
+huggingface-hub>=0.10.0  # For model hub access
+tokenizers>=0.10.0  # For tokenization
+safetensors>=0.2.0  # For tensor serialization 

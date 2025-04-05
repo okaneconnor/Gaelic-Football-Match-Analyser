@@ -1,0 +1,33 @@
+{
+    "system": {
+        "output_dir": "data/output",
+        "log_level": "INFO",
+        "debug_mode": false
+    },
+    "video_processing": {
+        "detection_interval": 30,
+        "confidence_threshold": 0.6,
+        "track_max_age": 20
+    },
+    "models": {
+        "default_model": "phi-2",
+        "cache_dir": ".cache/models",
+        "huggingface": {
+            "token": "YOUR_HUGGINGFACE_TOKEN_HERE"
+        }
+    },
+    "teams": {
+        "team_a": {
+            "name": "Team A",
+            "color_hsv_lower": [100, 50, 50],
+            "color_hsv_upper": [140, 255, 255],
+            "description": "Blue jerseys"
+        },
+        "team_b": {
+            "name": "Team B",
+            "color_hsv_lower": [0, 50, 50],
+            "color_hsv_upper": [20, 255, 255],
+            "description": "Red jerseys"
+        }
+    }
+} 
